@@ -81,16 +81,14 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        My project{" "}
+                        <span>I do Orchid Project with my amazing team. </span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                       We do amazing job in this special project we use JavaScript,CSS and HTML.
                       </p>
                       <div className="btn-wrapper">
-                        <Button
+                        {/* <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
                           href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
@@ -99,8 +97,8 @@ class Landing extends React.Component {
                             <i className="fa fa-code" />
                           </span>
                           <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
+                        </Button> */}
+                        {/* <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
                           href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
@@ -111,7 +109,7 @@ class Landing extends React.Component {
                           <span className="btn-inner--text">
                             Download React
                           </span>
-                        </Button>
+                        </Button> */}
                       </div>
                     </Col>
                   </Row>
@@ -148,22 +146,21 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                          Orchid
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                          Orchid is a website for shopping beautiful flowers ,its acollectio from our heavin.
+
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              Shopping
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              Flowers
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              Heavin
                             </Badge>
                           </div>
                           <Button
@@ -184,22 +181,20 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Buss-Mall
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            project for 201 showing list of choosen items and putting it in cart.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              Bus-mall
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
+                              shopping
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              success
+                              voting
                             </Badge>
                           </div>
                           <Button
@@ -213,7 +208,7 @@ class Landing extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
-                    <Col lg="4">
+                    {/* <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
@@ -248,7 +243,7 @@ class Landing extends React.Component {
                           </Button>
                         </CardBody>
                       </Card>
-                    </Col>
+                    </Col> */}
                   </Row>
                 </Col>
               </Row>
@@ -261,7 +256,7 @@ class Landing extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid floating"
-                    src={promo1}
+                    src="https://images.unsplash.com/photo-1460039230329-eb070fc6c77c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZsb3dlcnN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                   />
                 </Col>
                 <Col className="order-md-1" md="6">
@@ -269,15 +264,13 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-success shadow rounded-circle mb-5">
                       <i className="ni ni-settings-gear-65" />
                     </div>
-                    <h3>Awesome features</h3>
+                    <h3>Orchid</h3>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      You can see our amazing Flowers.
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
-                        <div className="d-flex align-items-center">
+                        {/* <div className="d-flex align-items-center">
                           <div>
                             <Badge
                               className="badge-circle mr-3"
@@ -291,9 +284,9 @@ class Landing extends React.Component {
                               Carefully crafted components
                             </h6>
                           </div>
-                        </div>
+                        </div> */}
                       </li>
-                      <li className="py-2">
+                      {/* <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
                             <Badge
@@ -307,8 +300,8 @@ class Landing extends React.Component {
                             <h6 className="mb-0">Amazing page examples</h6>
                           </div>
                         </div>
-                      </li>
-                      <li className="py-2">
+                      </li> */}
+                      {/* <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
                             <Badge
@@ -324,7 +317,7 @@ class Landing extends React.Component {
                             </h6>
                           </div>
                         </div>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </Col>
@@ -338,7 +331,7 @@ class Landing extends React.Component {
                   <Card className="bg-default shadow border-0">
                     <CardImg
                       alt="..."
-                      src={cardImg}
+                      src="https://images.unsplash.com/photo-1508808703020-ef18109db02f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGZsb3dlcnN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
                       top
                     />
                     <blockquote className="card-blockquote">
@@ -707,7 +700,7 @@ class Landing extends React.Component {
                         understand culture.
                       </p>
                     </Col>
-                    <Col className="ml-lg-auto" lg="3">
+                    {/* <Col className="ml-lg-auto" lg="3">
                       <Button
                         block
                         className="btn-white"
@@ -717,7 +710,7 @@ class Landing extends React.Component {
                       >
                         Download React
                       </Button>
-                    </Col>
+                    </Col> */}
                   </Row>
                 </div>
               </Card>
